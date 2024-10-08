@@ -282,5 +282,15 @@ input {
     background-color: var(--main-color);
     height: 391px;
     display: flex;
+    justify-content: space-evenly;
 }
 
+.footer-logo {
+    width: 135px;
+    height: 39px;
+}
+
+.fa-phone-volume {
+    color: #fff;
+    margin-right: 16px;
+}
