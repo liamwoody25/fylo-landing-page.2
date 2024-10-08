@@ -1,0 +1,286 @@
+/*********  utils  *********/
+
+:root {
+    --main-color:#070439;
+    --secondary-color:#585989;
+    --btn-colors-color:#3065F8;
+    --link-color:#3C9F8F;
+    --bg-color: #F6F6FE;
+    --LG-color:#BFBFBF;
+}
+
+/** fonts **/
+
+* {
+    font-family: "Open Sans" ,sans-serif;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: 'Raleweay',sans-serif;
+    color: var(--main-color);
+    font-weight: 700;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Raleway',sans-serif;
+    color: #fff;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--main-color);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+/**  components  **/
+
+li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.email-form{
+    display: flex;
+    gap: 16px;
+}
+
+.b-email {
+    width: 200px;
+    height: 45px;
+    border-radius: 3px;
+    background: var(--btn-colors-color);
+    filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+    cursor: pointer;
+}
+
+a :hover{
+    opacity: 0.5;
+}
+
+::placeholder {
+    padding: 14px 0px 12px 21px;
+    border-radius: 3px;
+    font-size: 14px;
+    color:#C2C2C2;
+}
+
+input{
+    outline: none;
+    border: 1px solid var(--main-color);
+    width:50%;
+    text-align: start;
+}
+
+a{
+    color: #3C9F8F;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/**  body  **/
+
+body {
+    margin: 0;
+}
+
+
+/**  header  **/
+
+.nav-header {
+    margin: 80px 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 166px;
+    height: 49px;
+}
+
+.nav-items ul {
+    display: inline-flex;
+    gap: 57px;
+}
+
+
+/**  hero-section  **/
+
+.hero-container  {
+    margin: 164px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-content p {
+   margin-right: 55px;
+   width: 90%;
+}
+
+
+.hero-image-1 {
+    object-fit: contain;
+    width: 50%;
+    margin-bottom: 164px;
+}
+
+/*********  productive  ************/
+
+.productive-container  {
+    padding: 164px 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-color);
+}
+
+.productive-content p{
+    width: 73%;
+}
+
+.productive-image-2 {
+    width: 40%;
+    object-fit: contain;
+}
+
+/******  quote-card  ******/
+
+.quote-card {
+    margin-top: 45px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 51%;
+    padding: 12px 0px 26px 0px ;
+}
+
+.quote-body {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-body p {
+    font-size: 13px;
+    color: #070439;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.icon-quotes {
+    position: relative;
+    left: 53px;
+    top: 12px;
+    width: 14px;
+}
+
+/*******  avatar ********/
+.avatar {
+    position: relative;
+    display: flex;
+    left: 50px;
+
+}
+
+.avatar-body {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left:5px;
+    bottom: 0px;
+}
+
+.avatar-body h4 {
+    margin: 0px;
+    color: var(--main-color);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.55px;
+}
+
+.avatar-body p {
+    font-size: 8px;
+    margin: 0;
+}
+
+.avatar-img {
+    position: relative;
+    right: 3px;
+    width: 32px;
+    height: 32px;
+   border-radius: 60px;
+}
+
+/*******  sub-footer  *********/
+
+.sub-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 120px 85px 80px;
+    background-color: var(--secondary-color);
+}
+
+.sub-footer-body {
+    margin: 0;
+}
+
+.sub-footer-body h2 {
+    margin: 0;
+}
+
+.sub-footer-body p {
+    width: 45%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+
+
+.email-signup {
+    display: flex;
+    align-items: center;
+}
+
+::placeholder {
+   border-radius: 10px;
+   background-color: #fff;
+   filter: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+}
+
+input {
+    width: 30%;
+    height: 48px;
+}
+
+/*******  footer-section  ******/
+
+.footer-container {
+    background-color: var(--main-color);
+    height: 391px;
+    display: flex;
+}
+
