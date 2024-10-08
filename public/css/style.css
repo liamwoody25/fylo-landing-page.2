@@ -278,19 +278,65 @@ input {
 
 /*******  footer-section  ******/
 
+.text-styling {
+    color: #ffff;
+    text-decoration: none;
+}
+
 .footer-container {
     background-color: var(--main-color);
-    height: 391px;
-    display: flex;
-    justify-content: space-evenly;
+    height: 290px;
+    padding: 168px 262px 0px 80px;
 }
+
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.nav-list {
+   display: flex;
+   align-items: baseline;
+
+}
+
 
 .footer-logo {
     width: 135px;
     height: 39px;
+    color: #fff;
 }
 
-.fa-phone-volume {
+.icon-phone {
     color: #fff;
     margin-right: 16px;
+}
+
+.icon-email {
+    margin-right: 16px;
+    color: #fff;
+}
+
+/******  icons  ********/
+
+.icons {
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+}
+
+.facebook a {
+    font-size: 31px;
+    color: #fff;
+}
+
+.twitter a {
+    font-size: 31px;
+    color: #fff;
+}
+
+.instagram a {
+    font-size: 31px;
+    color: #fff;
 }
