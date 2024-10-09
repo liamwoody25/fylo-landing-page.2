@@ -92,6 +92,9 @@ a{
     margin-bottom: 50px;
 }
 
+ li a:hover{
+    color: #6C9BFF;
+}
 
 
 
@@ -314,10 +317,11 @@ input {
 .left-list {
     position: relative;
     bottom: 70px;
-   display: flex;
-   align-items: baseline;
-
+    display: flex;
+    align-items: baseline;
 }
+
+
 
 
 .footer-logo {
@@ -362,3 +366,13 @@ input {
     font-size: 31px;
     color: #fff;
 }
+
+.facebook,
+.twitter,
+.instagram, a:hover {
+    color: #6C9BFF;
+}
+
+
+
+
