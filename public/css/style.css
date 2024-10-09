@@ -55,7 +55,7 @@ li {
 }
 
 .b-email {
-    width: 200px;
+    width: 30%;
     height: 45px;
     border-radius: 3px;
     background: var(--btn-colors-color);
@@ -80,10 +80,11 @@ a :hover{
 }
 
 input{
-    outline: none;
     border: 1px solid var(--main-color);
-    width:50%;
+    outline: none;
+    width: 50%;
     text-align: start;
+    border-radius: 3px;
 }
 
 a{
@@ -234,15 +235,12 @@ body {
 /*******  sub-footer  *********/
 
 .sub-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     padding: 100px 120px 85px 80px;
     background-color: var(--secondary-color);
 }
 
 .sub-footer-body {
-    margin: 0;
+    
 }
 
 .sub-footer-body h2 {
@@ -258,23 +256,41 @@ body {
     letter-spacing: 0.5px;
 }
 
+/** email-signup  **/
 
 
 .email-signup {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;   
 }
 
 ::placeholder {
-   border-radius: 10px;
-   background-color: #fff;
-   filter: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+    width:40%;
+    height: 48px;
+}
+
+
+.signup-btn {
+    width: 200px;
+    height: 48px;
+    background: var(--btn-colors-color);
+    filter: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    padding: 16px 22px;
+    text-align: center;
+    cursor: pointer;
 }
 
 input {
-    width: 30%;
-    height: 48px;
+    padding: 0px 0px 0px 20px;
 }
+
 
 /*******  footer-section  ******/
 
@@ -306,6 +322,7 @@ input {
     width: 135px;
     height: 39px;
     color: #fff;
+    
 }
 
 .icon-phone {
